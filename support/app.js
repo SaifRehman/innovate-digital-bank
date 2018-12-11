@@ -33,6 +33,7 @@ else {
   conversationPassword = process.env.CONVERSATION_PASSWORD;
   conversationUrl = process.env.CONVERSATION_URL;
 }
+console.log(conversationUrl)
 
 var conversation = new Conversation({
     version_date: Conversation.VERSION_DATE_2017_04_21,
