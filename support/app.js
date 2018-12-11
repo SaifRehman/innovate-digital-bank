@@ -36,10 +36,9 @@ else {
 console.log(conversationUrl)
 
 var conversation = new Conversation({
-    version_date: Conversation.VERSION_DATE_2017_04_21,
-    username: conversationUsername,
-    password: conversationPassword,
-    url: conversationUrl
+    version: Conversation.VERSION_DATE_2017_05_26,
+    iam_apikey: 'mfVR6iF4cqS-XIxAR1X99TDz_tdugFtTJz35o-oUWa6d',
+    url: 'https://gateway-syd.watsonplatform.net/assistant/api'
 });
 
 let workspaceID; // workspaceID will be set when the workspace is created or validated.
